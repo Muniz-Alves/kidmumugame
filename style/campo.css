@@ -1,0 +1,128 @@
+/* Define o estilo do campo de futebol */
+.soccer-field {
+    width: 750px;
+    height: 355px;
+    background-color: green;
+    position: relative;
+    margin: 0 auto; /* center the element horizontally */
+    
+  }
+  
+  
+  /* Define o estilo da área de gol */
+  .goal-area {
+    width: 16%; /* define a largura da área de gol */
+    height: 30%; /* define a altura da área de gol */
+    position: absolute; /* define a posição absoluta do elemento */
+    
+  }
+  
+  /* Define o estilo da área de gol da esquerda */
+  .goal-area-left {
+    left: -10; /* define a posição à esquerda */
+    top: 35%; /* define a posição no topo */
+  }
+  
+  /* Define o estilo da área de gol da direita */
+  .goal-area-right {
+    right: -10; /* define a posição à direita */
+    top: 35%; /* define a posição no topo */
+  }
+  
+  /* Define o estilo da linha de gol */
+  .goal-line {
+    width: 100%; /* define a largura da linha de gol */
+    height: 130%; /* define a altura da linha de gol */
+    background-color: rgba(255, 255, 255, 0.061); /* define a cor de fundo da linha de gol */
+    position: absolute; /* define a posição absoluta do elemento */
+    bottom: 0; /* define a posição no fundo */
+    border: 3px solid white;
+  }
+  
+  /* Define o estilo do círculo central */
+  .center-circle {
+    width: 20%;
+    height: 40%;
+    border-radius: 50%;
+    border: 3px solid white; /* add a border to the element */
+    background-color: transparent; /* remove the background color */
+    position: absolute;
+    top: 25%; /* center the element vertically */
+    left: 39%; /* center the element horizontally */
+  }
+  .side-area {
+    width: 40%; /* define a largura da área lateral */
+    height: 50%; /* define a altura da área lateral */
+    position: absolute; /* define a posição absoluta do elemento */
+  }
+  .field {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+  #ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+
+  
+
+
+  #scores {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #score1 {
+    
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px;
+    color: blue;
+  }
+  
+  #score2 {
+   
+    font-size: 32px;
+    font-weight: bold;
+    padding: 20px;
+    color: red;
+  }
+#goleiro {
+  width: 10px;
+  height: 70px;
+  background-color: rgb(9, 33, 242);
+  position: absolute;
+  bottom: 0;
+  left: 1%;
+  transform: translateX(-50%);
+}
+
+#goleiro-oponente {
+  width: 10px;
+  height: 20px;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  right: 0%;
+  transform: translateX(50%);
+}
+
